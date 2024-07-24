@@ -1,5 +1,4 @@
-<script>
-  const ctx = document.getElementById('myChart');
+const ctx = document.getElementById('myChart');
 
   new Chart(ctx, {
     type: 'bar',
@@ -19,4 +18,3 @@
       }
     }
   });
-</script>
